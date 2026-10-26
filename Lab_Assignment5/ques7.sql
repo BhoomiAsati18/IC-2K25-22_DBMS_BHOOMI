@@ -1,5 +1,11 @@
-SELECT e.first_name, e.last_name, e.salary
-FROM employees e
-JOIN job_grades jg
-    ON e.salary BETWEEN jg.lowest_sal AND jg.highest_sal
-WHERE e.salary = jg.lowest_sal;
+SELECT first_name, last_name, salary
+FROM employees
+WHERE salary > (
+    SELECT AVG(salary)
+    FROM employees
+)
+AND department_id IN (
+    SELECT department_id
+    FROM departments
+    WHERE department_name LIKE 'IT%'
+);
