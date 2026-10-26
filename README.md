@@ -1,145 +1,153 @@
-# 📚 Database Management System (DBMS)
+📚 DBMS Assignments — SQL Practice
 
-Welcome to my **Database Management System (DBMS)** repository.
+Welcome to my Database Management Systems (DBMS) repository! 🚀
 
-This repository contains my **college DBMS assignments, SQL queries, and practical work** completed as part of my MCA coursework. It documents my learning and practice of database concepts using **MySQL**.
+This repository contains SQL assignments and practice exercises covering fundamental to intermediate database concepts, including table creation, constraints, filtering, built-in functions, aggregate functions, grouping, and subqueries.
 
-The main focus of this repository is to understand how databases are designed, managed, and queried using SQL.
+The goal is to strengthen my understanding of SQL and relational database management through practical exercises.
 
----
+📌 Table of Contents
 
-## 👩‍💻 About Me
+- "About the Repository" (#-about-the-repository)
+- "Assignments" (#-assignments)
+- "Technologies Used" (#-technologies-used)
+- "SQL Concepts Covered" (#-sql-concepts-covered)
+- "How to Use" (#-how-to-use)
+- "Learning Outcomes" (#-learning-outcomes)
+- "Author" (#-author)
 
-**Name:** Bhoomi Asati  
-**Course:** Master of Computer Applications (MCA)  
-**Subject:** Database Management System (DBMS)  
-**Database:** MySQL  
+🎯 About the Repository
 
----
+This repository documents my DBMS learning journey through hands-on SQL assignments. Each assignment focuses on specific SQL concepts and helps develop practical database querying skills.
 
-## 🎯 Purpose of This Repository
+📝 Assignments
 
-The purpose of this repository is to:
+Assignment 1: Table Creation and Constraints
 
-- 📖 Maintain my DBMS academic work in one place
-- 💻 Practice SQL queries using MySQL
-- 🗄️ Understand database and table creation
-- 🔐 Learn and implement database constraints
-- 🔎 Practice data retrieval using SQL
-- 📊 Work with aggregate functions and grouping
-- 🧠 Strengthen my understanding of relational databases
-- 📝 Maintain a digital record of my DBMS assignments
+Topics covered:
 
----
+- DDL commands and "CREATE TABLE"
+- "NOT NULL" and "UNIQUE" constraints
+- Primary keys and foreign keys
+- "CHECK" and "DEFAULT" constraints
+- Auto-incrementing identifiers
+- Referential integrity and foreign-key actions
 
-## 📂 Repository Contents
+Objective: Understand how to create structured database tables and enforce data integrity.
 
-### 📝 Assignment 1 — Table Creation & Constraints
+Assignment 2: SELECT Queries and SQL Functions
 
-This assignment focuses on creating tables and applying different SQL constraints.
+Topics covered:
 
-**Topics covered:**
+- "SELECT" statements
+- "DISTINCT" keyword
+- "ORDER BY" for sorting
+- String functions
+- Numeric functions
 
-- `CREATE TABLE`
-- `IF NOT EXISTS`
-- `NOT NULL`
-- `UNIQUE`
-- `PRIMARY KEY`
-- `AUTO_INCREMENT`
-- `CHECK`
-- `DEFAULT`
-- Composite Primary Key
-- Foreign Key
-- Composite Foreign Key
-- `ON UPDATE CASCADE`
-- `ON DELETE CASCADE`
-- `ON DELETE SET NULL`
-- `ON UPDATE SET NULL`
-- `RESTRICT`
-- `NO ACTION`
-- InnoDB Engine
+Objective: Retrieve, organize, and manipulate data using SQL queries and built-in functions.
 
----
+Assignment 3: Filtering and Conditional Queries
 
-### 🔍 Assignment 2 — SELECT Queries
+Topics covered:
 
-This assignment focuses on retrieving and manipulating data using SQL `SELECT` queries.
-
-**Topics covered:**
-
-- `SELECT`
-- Column aliases using `AS`
-- `DISTINCT`
-- `ORDER BY`
-- `ASC` and `DESC`
-- `SUM()`
-- `AVG()`
-- `COUNT()`
-- `MAX()`
-- `MIN()`
-- `UPPER()`
-- `SUBSTRING()`
-- `CONCAT()`
-- `TRIM()`
-- `LENGTH()`
-- `REGEXP`
-- `LIMIT`
-- `ROUND()`
-
----
-
-### 🔎 Assignment 3 — Filtering & Conditional Queries
-
-This assignment focuses on filtering records according to specific conditions.
-
-**Topics covered:**
-
-- `WHERE`
-- `AND`
-- `OR`
-- `IN`
-- `NOT IN`
-- `BETWEEN`
-- `NOT BETWEEN`
-- `LIKE`
-- Wildcards `%` and `_`
-- `YEAR()`
-- `LENGTH()`
+- "WHERE" clause
+- "IN" and "NOT IN"
+- "BETWEEN"
+- "LIKE" pattern matching
+- Wildcards "%" and "_"
+- Date and string functions such as "YEAR()" and "LENGTH()"
 - Calculated columns
-- Multiple conditions
+
+Objective: Retrieve specific records using conditions, pattern matching, and expressions.
+
+Assignment 4: Aggregate Functions and Grouping
+
+Topics covered:
+
+- "COUNT()"
+- "SUM()"
+- "MIN()" and "MAX()"
+- "AVG()"
+- "GROUP BY"
+- "HAVING"
+
+Objective: Summarize data, calculate statistics, and filter grouped results.
+
+Assignment 5: Subqueries — 22 Exercises
+
+Topics covered:
+
+- Single-row and multiple-row subqueries
+- Nested queries
+- Salary comparisons
+- Department-wise average salary calculations
+- Manager and supervisor identification
+- Job grades and salary ranges
+- "ALL" operator
+- Department and employee queries
+- Even employee IDs
+- Highest, lowest, and Nth-highest salary queries
+- "LIMIT" and "OFFSET"
+- Identifying departments without employees
+
+Objective: Solve more complex database problems using nested queries and comparisons between query results.
+
+🛠️ Technologies Used
+
+- SQL — Database querying and manipulation
+- MySQL — SQL practice environment, where applicable
+- Git and GitHub — Version control and repository management
+
+«Note: SQL syntax can differ between database systems. Use the syntax supported by the database engine for which each assignment was designed.»
+
+💡 SQL Concepts Covered
+
+Category| Concepts
+DDL| "CREATE TABLE", constraints
+Data retrieval| "SELECT", "DISTINCT"
+Filtering| "WHERE", "IN", "BETWEEN", "LIKE"
+Sorting| "ORDER BY"
+Functions| String, numeric, and aggregate functions
+Grouping| "GROUP BY", "HAVING"
+Relationships| Primary keys, foreign keys
+Advanced queries| Nested and scalar subqueries
+Data integrity| "NOT NULL", "UNIQUE", "CHECK", "DEFAULT"
+
+🚀 How to Use
+
+1. Clone or download this repository.
+2. Open the assignment files.
+3. Set up the required database and tables in your SQL environment.
+4. Execute the queries in the appropriate order.
+5. Compare the results and experiment with different conditions.
+6. Review the concepts used in each assignment.
+
+Clone the Repository
+
+git clone https://github.com/BhoomiAsati18/IC-2K25-22_DBMS_BHOOMI.git
+cd IC-2K25-22_DBMS_BHOOMI
+
+🎓 Learning Outcomes
+
+By completing these assignments, I aim to:
+
+- Understand database table design and constraints.
+- Write efficient SQL queries.
+- Filter and sort records based on specific conditions.
+- Use built-in and aggregate functions.
+- Analyze grouped data using "GROUP BY" and "HAVING".
+- Solve complex problems using subqueries.
+- Improve my practical database management skills.
+
+👨‍💻 Author
+
+GitHub: "@BhoomiAsati18" (https://github.com/BhoomiAsati18)
+
+Repository: "IC-2K25-22_DBMS_BHOOMI" (https://github.com/BhoomiAsati18/IC-2K25-22_DBMS_BHOOMI)
 
 ---
 
-### 📊 Assignment 4 — Aggregate Functions & GROUP BY
+⭐ If you find this repository useful, feel free to explore the assignments and practice the SQL concepts.
 
-This assignment focuses on performing calculations on groups of records.
-
-**Topics covered:**
-
-- `COUNT()`
-- `SUM()`
-- `MIN()`
-- `MAX()`
-- `AVG()`
-- `GROUP BY`
-- `HAVING`
-- Group-wise calculations
-- Department-wise salary analysis
-- Job-wise salary analysis
-- Manager-wise salary analysis
-
----
-
-## 🗄️ Database Used
-
-The assignments primarily use the **HR database structure**, including tables such as:
-
-```text
-employees
-departments
-jobs
-job_history
-countries
-regions
-locations
-job_grades
+Learning SQL one query at a time!
