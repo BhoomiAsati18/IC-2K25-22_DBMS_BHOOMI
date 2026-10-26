@@ -1,67 +1,68 @@
 📚 DBMS Assignments — SQL Practice
 
-Welcome to my Database Management Systems (DBMS) repository! 🚀
+"Database" (https://img.shields.io/badge/Subject-DBMS-blue)
+"Language" (https://img.shields.io/badge/Language-SQL-orange)
+"Status" (https://img.shields.io/badge/Status-Learning%20%26%20Practice-success)
 
-This repository contains SQL assignments and practice exercises covering fundamental to intermediate database concepts, including table creation, constraints, filtering, built-in functions, aggregate functions, grouping, and subqueries.
+📖 About the Repository
 
-The goal is to strengthen my understanding of SQL and relational database management through practical exercises.
+Welcome to my Database Management Systems (DBMS) Assignments repository!
 
-📌 Table of Contents
+This repository contains five SQL assignments completed as part of my academic learning. These assignments cover essential database concepts, from creating tables and applying constraints to writing advanced queries using aggregate functions and subqueries.
 
-- "About the Repository" (#-about-the-repository)
-- "Assignments" (#-assignments)
-- "Technologies Used" (#-technologies-used)
-- "SQL Concepts Covered" (#-sql-concepts-covered)
-- "How to Use" (#-how-to-use)
-- "Learning Outcomes" (#-learning-outcomes)
-- "Author" (#-author)
+The purpose of this repository is to strengthen my SQL skills through practical implementation and document my learning journey in database management.
 
-🎯 About the Repository
+📂 Assignments Overview
 
-This repository documents my DBMS learning journey through hands-on SQL assignments. Each assignment focuses on specific SQL concepts and helps develop practical database querying skills.
+1. Table Creation and Constraints
 
-📝 Assignments
-
-Assignment 1: Table Creation and Constraints
+This assignment focuses on creating database tables and maintaining data integrity.
 
 Topics covered:
 
-- DDL commands and "CREATE TABLE"
+- "CREATE TABLE" and DDL commands
 - "NOT NULL" and "UNIQUE" constraints
-- Primary keys and foreign keys
+- Primary key and foreign key constraints
 - "CHECK" and "DEFAULT" constraints
-- Auto-incrementing identifiers
+- Auto-incrementing columns
 - Referential integrity and foreign-key actions
 
-Objective: Understand how to create structured database tables and enforce data integrity.
+Learning objective: Understand table structure, relationships, and database constraints.
 
-Assignment 2: SELECT Queries and SQL Functions
+2. SELECT Queries and SQL Functions
+
+This assignment focuses on retrieving, sorting, and manipulating data.
 
 Topics covered:
 
 - "SELECT" statements
 - "DISTINCT" keyword
-- "ORDER BY" for sorting
+- "ORDER BY" clause
 - String functions
 - Numeric functions
+- Data manipulation through expressions
 
-Objective: Retrieve, organize, and manipulate data using SQL queries and built-in functions.
+Learning objective: Retrieve meaningful information from database tables using SQL queries and built-in functions.
 
-Assignment 3: Filtering and Conditional Queries
+3. Filtering and Conditional Queries
+
+This assignment explores filtering records based on specified conditions.
 
 Topics covered:
 
 - "WHERE" clause
 - "IN" and "NOT IN"
 - "BETWEEN"
-- "LIKE" pattern matching
-- Wildcards "%" and "_"
+- "LIKE" operator
+- Pattern matching using "%" and "_"
 - Date and string functions such as "YEAR()" and "LENGTH()"
 - Calculated columns
 
-Objective: Retrieve specific records using conditions, pattern matching, and expressions.
+Learning objective: Select relevant records using conditions, pattern matching, and calculated expressions.
 
-Assignment 4: Aggregate Functions and Grouping
+4. Aggregate Functions and Grouping
+
+This assignment focuses on summarizing and analyzing data.
 
 Topics covered:
 
@@ -69,85 +70,95 @@ Topics covered:
 - "SUM()"
 - "MIN()" and "MAX()"
 - "AVG()"
-- "GROUP BY"
-- "HAVING"
+- "GROUP BY" clause
+- "HAVING" clause
 
-Objective: Summarize data, calculate statistics, and filter grouped results.
+Learning objective: Perform calculations on datasets, group records, and filter aggregated results.
 
-Assignment 5: Subqueries — 22 Exercises
+5. Subqueries — 22 Exercises
+
+This assignment provides practice with nested queries and more complex SQL problems.
 
 Topics covered:
 
 - Single-row and multiple-row subqueries
-- Nested queries
-- Salary comparisons
-- Department-wise average salary calculations
-- Manager and supervisor identification
-- Job grades and salary ranges
+- Scalar subqueries
+- Nested query conditions
+- Comparing salaries with overall and departmental averages
+- Identifying managers and supervisors
+- Employee and department queries
+- Job grades and salary comparisons
 - "ALL" operator
-- Department and employee queries
-- Even employee IDs
-- Highest, lowest, and Nth-highest salary queries
-- "LIMIT" and "OFFSET"
+- Finding even employee IDs
+- Highest, lowest, and Nth-highest salaries
+- Using "LIMIT" and "OFFSET"
+- Retrieving the last 10 records
 - Identifying departments without employees
 
-Objective: Solve more complex database problems using nested queries and comparisons between query results.
+Learning objective: Solve complex database problems by combining queries and using the results of one query within another.
 
 🛠️ Technologies Used
 
-- SQL — Database querying and manipulation
-- MySQL — SQL practice environment, where applicable
-- Git and GitHub — Version control and repository management
+- SQL — Database querying language
+- MySQL-compatible syntax — For exercises that use MySQL-specific functions and features
+- Git — Version control
+- GitHub — Code storage and project documentation
 
-«Note: SQL syntax can differ between database systems. Use the syntax supported by the database engine for which each assignment was designed.»
+Note: Some SQL functions and syntax are database-specific. Check the original assignment requirements before executing queries in another database system, such as Oracle.
 
-💡 SQL Concepts Covered
+💡 Key SQL Concepts
 
 Category| Concepts
-DDL| "CREATE TABLE", constraints
+Table definition| "CREATE TABLE", DDL
+Constraints| Primary key, foreign key, "UNIQUE", "CHECK"
 Data retrieval| "SELECT", "DISTINCT"
 Filtering| "WHERE", "IN", "BETWEEN", "LIKE"
 Sorting| "ORDER BY"
-Functions| String, numeric, and aggregate functions
+SQL functions| String, numeric, and date functions
+Aggregation| "COUNT", "SUM", "MIN", "MAX", "AVG"
 Grouping| "GROUP BY", "HAVING"
-Relationships| Primary keys, foreign keys
-Advanced queries| Nested and scalar subqueries
-Data integrity| "NOT NULL", "UNIQUE", "CHECK", "DEFAULT"
+Advanced querying| Nested queries and subqueries
+Data integrity| Constraints and referential integrity
 
-🚀 How to Use
+🚀 How to Use This Repository
 
 1. Clone or download this repository.
-2. Open the assignment files.
-3. Set up the required database and tables in your SQL environment.
-4. Execute the queries in the appropriate order.
-5. Compare the results and experiment with different conditions.
-6. Review the concepts used in each assignment.
+2. Open the folder containing the required assignment.
+3. Open the SQL file or assignment document.
+4. Set up the required database and tables.
+5. Execute the queries in the order specified by the assignment.
+6. Review the results and experiment with different conditions.
 
 Clone the Repository
 
 git clone https://github.com/BhoomiAsati18/IC-2K25-22_DBMS_BHOOMI.git
 cd IC-2K25-22_DBMS_BHOOMI
 
-🎓 Learning Outcomes
+🎯 Learning Outcomes
 
-By completing these assignments, I aim to:
+Through these assignments, I have worked on developing the ability to:
 
-- Understand database table design and constraints.
-- Write efficient SQL queries.
-- Filter and sort records based on specific conditions.
-- Use built-in and aggregate functions.
-- Analyze grouped data using "GROUP BY" and "HAVING".
-- Solve complex problems using subqueries.
-- Improve my practical database management skills.
+- Design tables and apply database constraints.
+- Retrieve, filter, and sort records.
+- Use SQL functions to manipulate and analyze data.
+- Apply aggregate functions to summarize information.
+- Group records and filter grouped results.
+- Write nested queries to solve advanced SQL problems.
+- Understand relationships between database tables.
+- Improve logical thinking and problem-solving through SQL.
+
+📌 Purpose
+
+This repository is maintained for academic practice, revision, and skill development. It serves as a record of my DBMS assignments and provides a foundation for further learning in SQL, relational databases, and database design.
 
 👨‍💻 Author
 
-GitHub: "@BhoomiAsati18" (https://github.com/BhoomiAsati18)
+GitHub Profile: "@BhoomiAsati18" (https://github.com/BhoomiAsati18)
 
 Repository: "IC-2K25-22_DBMS_BHOOMI" (https://github.com/BhoomiAsati18/IC-2K25-22_DBMS_BHOOMI)
 
 ---
 
-⭐ If you find this repository useful, feel free to explore the assignments and practice the SQL concepts.
+⭐ If you find this repository helpful, feel free to explore the SQL concepts and practice along with the assignments.
 
-Learning SQL one query at a time!
+Keep learning, keep querying, and keep building!
